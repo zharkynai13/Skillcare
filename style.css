@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 42px 115px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-list {
+    display: flex;
+    gap: 72px;
+   align-items: center;
+}
+
+.menu-item {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700px;
+}
+.menu-link {
+    text-decoration: none;
+    color: #666571;
+    ;
+}
+.active {
+    font-weight: 700;
+    color: #26242E;
+}
+.active:hover {
+text-decoration: underline red;
+cursor: pointer;
+}
+ .menu-button {
+    padding: 16px 38px;
+    border-radius: 12px;
+    background-color:  #6347EB;
+    border: none;
+    font-size: 20px;
+    font-weight: 600px;
+    color: white;
+    cursor: pointer;
+ }
+
+/* ----------------hero page------------------------------- */
+
+ .hero-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+ }
+
+ .main-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: #3D3D3D;
+    padding-top: 75px;
+ }
+
+ .main-text  {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: -30px;
+ }
+
+ .color-org{
+    color: #FE7244;
+ }
+.hero-btn {
+    margin: 60px 0 120px 0;
+}
+ .hero-image {
+    position: relative;
+    object-fit: cover;
+ }
+ .congratulation {
+    position: absolute;
+    top: 60%;
+    right: 34%;
+ }
+ .learn-img {
+    position: absolute;
+    top: 55%;
+    right: 5%;
+ }
+.hero-btn {
+    align-items: center;
+    gap: 32px;
+}
+.join {
+    padding: 17px 40px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    background: #6652DA;
+    border-radius: 16px;
+    cursor: pointer;
+
+}
+.play {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    align-items: center;
+    padding: 17px  60px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #3D3D3D;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+   
+   
+}
+
+.play-btn {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    border: 1px solid #000;
+    padding: 15px 15px;
+    object-fit: cover;
+    border-radius: 2.5px;
+    /* border-radius: 50px; */
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.9) 0%, #FFFFFF 100%);
+    box-shadow: 0px 8px 24px rgba(254, 114, 68, 0.08);
+    /* transform: rotate(88.08deg); */
+    border: none;
+}
+
