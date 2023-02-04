@@ -9,7 +9,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
 }
+a {
+    text-decoration: none;
+}
 
+li {
+    list-style: none;
+}
 .container {
     max-width: 1240px;
     margin: 0 auto;
@@ -287,4 +293,111 @@ cursor: pointer;
 }
 .marketing {
     padding: 29px 20px;
+}
+
+/* -------------------popular course---------------------------- */
+
+.popular-course-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: capitalize;
+    color: #3D3D3D
+}
+
+.popular-course-list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.popular-item {
+    list-style: none;
+}
+
+.popular-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3D3D3D;
+    opacity: 0.8;
+}
+
+.popular-link:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 24px rgba(0, 0, 0, 0.03);
+    border-radius: 3px;
+    padding: 15px 17px ;
+    border: 1px solid #000;
+    border: none;
+    transition: 0.2s;
+}
+
+.most-popular-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.popular-img {
+    object-fit:inherit;
+}
+
+.item-wrapper {
+    display: flex;
+    padding: 0 10px;
+    gap: 10px;
+    align-items: center;
+}
+.most-popular-list-item {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(31, 31, 51, 0.06);
+    border-radius: 5px;
+    border: 1px solid none;
+}
+.steak {
+    margin-left: 95px;
+    font-weight: 500;
+    padding: 7px 2px;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: #3D3D3D;
+    border: 1px solid none;
+    background: linear-gradient(90.26deg, rgba(170, 128, 255, 0.12) 0.21%, rgba(160, 113, 255, 0.078) 97.38%);
+    border-radius: 2px;
+}
+ .steak-1 {
+    padding: 7px 2px;
+ }
+.mentor-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #3D3D3D;
+}
+
+.most-popular-item-title {
+    padding: 0 15px ;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #3D3D3D;
+}
+
+.time {
+    display: flex;
+    margin: 0 15px;
+}
+.tima-hour {
+    display: flex;
+    align-items: center;
+}
+.time-img-blg {
+   text-align: center;
+}
+.time-clock {
+    padding-right: 20px;
 }
